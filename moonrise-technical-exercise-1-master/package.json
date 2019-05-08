@@ -7,6 +7,7 @@
     "@material-ui/icons": "^3.0.2",
     "axios": "^0.18.0",
     "fetch": "^1.1.0",
+    "puppeteer": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
@@ -47,18 +48,17 @@
     "jest": "^23.5.0",
     "jest-cli": "^23.5.0"
   },
-
   "jest": {
     "verbose": true,
     "clearMocks": true,
     "collectCoverage": true,
     "setupTestFrameworkScriptFile": "<rootDir>/config/setupTest.js",
     "transform": {
-        "^.+\\.js$": "babel-jest"
+      "^.+\\.js$": "babel-jest"
     },
     "moduleNameMapper": {
-        "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-        "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js"
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js"
     }
-}
+  }
 }
